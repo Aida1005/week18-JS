@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(223, 142, 71);
+}
+.suphero-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 25vw;
+    border: 3px solid rgb(47, 48, 51);
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.suphero-card__name{
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+.suphero-card__info{
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.suphero-card__img{
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+
+.rating-input{
+    position: relative;
+    opacity: 0;
+    z-index: 1;
+}
